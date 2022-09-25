@@ -3,7 +3,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 import './scss/style.scss'
 import { connect } from 'react-redux';
 import { set_login_action } from '../src/redux/utils/Action';
-import PublicRoutes from './utils/PublicRoutes';
+import PublicRoutes from './utils/Route/PublicRoutes';
 
 const loading = (
   <div className="pt-3 text-center">
